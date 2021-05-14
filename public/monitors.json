@@ -1,0 +1,17 @@
+[
+    {
+        "name": "website",
+        "url": "https://pukima.site",
+        "enabled": true
+    },
+    {
+        "name": "pbots",
+        "url": "https://pbots.herokuapp.com",
+        "enabled": true
+    },
+    {
+        "name": "start",
+        "url": "https://start.pukima.site",
+        "enabled": false
+    }
+]
