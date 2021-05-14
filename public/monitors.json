@@ -13,5 +13,10 @@
         "name": "start",
         "url": "https://start.pukima.site",
         "enabled": false
+    },
+    {
+        "name": "matrix",
+        "url": "https://mtrx.pukima.site",
+        "enabled": true
     }
 ]
