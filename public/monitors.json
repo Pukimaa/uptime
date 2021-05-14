@@ -17,6 +17,6 @@
     {
         "name": "matrix",
         "url": "https://mtrx.pukima.site/_matrix/static/",
-        "enabled": true
+        "enabled": false
     }
 ]
