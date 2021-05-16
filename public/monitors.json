@@ -15,8 +15,8 @@
         "enabled": false
     },
     {
-        "name": "matrix",
-        "url": "https://mtrx.pukima.site/_matrix/static/",
-        "enabled": false
+        "name": "mastodon",
+        "url": "https://pukima.site",
+        "enabled": true
     }
 ]
