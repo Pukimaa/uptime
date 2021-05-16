@@ -16,7 +16,7 @@
     },
     {
         "name": "mastodon",
-        "url": "https://pukima.site",
+        "url": "https://pukima.site/api/v1/instance",
         "enabled": true
     }
 ]
