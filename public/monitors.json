@@ -1,7 +1,7 @@
 [
     {
         "name": "website",
-        "url": "https://web.pukima.site",
+        "url": "https://pukima.site",
         "enabled": true
     },
     {
@@ -17,6 +17,6 @@
     {
         "name": "mastodon",
         "url": "https://pukima.site/api/v1/instance",
-        "enabled": true
+        "enabled": false
     }
 ]
