@@ -21,7 +21,7 @@ export default class App extends React.Component {
       });
     });
     var olddata = "";
-    window.setInterval(function() {
+    function loadIncidentHistory() {
       $.get("https://mastodon.social/api/v1/timelines/tag/pukimastatus", function(data) {
         if (data !== olddata) {
           $("#incidents").html("");
@@ -55,6 +55,10 @@ export default class App extends React.Component {
           olddata = data;
         }
       });
+    }
+    loadIncidentHistory();
+    window.setInterval(function() {
+      loadIncidentHistory();
     }, 3000);
   }
 
