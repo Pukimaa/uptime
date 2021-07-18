@@ -22,7 +22,7 @@ export default class App extends React.Component {
     });
     var olddata = "";
     function loadIncidentHistory() {
-      $.get("https://mstdn.social/api/v1/timelines/tag/pukimastatus", function(data) {
+      $.get("https://koyu.space/api/v1/timelines/tag/pukimastatus", function(data) {
         if (data !== olddata) {
           $("#incidents").html("");
           var statuscount = 0;
