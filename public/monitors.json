@@ -5,18 +5,8 @@
         "enabled": true
     },
     {
-        "name": "start",
-        "url": "https://start.pukima.site",
-        "enabled": false
-    },
-    {
-        "name": "mastodon",
-        "url": "https://pukima.site/api/v1/instance",
-        "enabled": false
-    },
-    {
-	"name": "git",
-	"url": "https://git.pukima.site",
-	"enabled": true
+        "name": "kayano",
+        "url": "http://164.90.166.57:3001",
+        "enabled": true
     }
 ]
